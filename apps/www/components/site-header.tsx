@@ -37,7 +37,7 @@ export function SiteHeader() {
                 <span className="sr-only">GitHub</span>
               </div>
             </Link>
-            <Link
+            {/* <Link
               href={siteConfig.links.twitter}
               target="_blank"
               rel="noreferrer"
@@ -53,7 +53,7 @@ export function SiteHeader() {
                 <Icons.twitter className="h-3 w-3 fill-current" />
                 <span className="sr-only">Twitter</span>
               </div>
-            </Link>
+            </Link> */}
             <ModeToggle />
           </nav>
         </div>
